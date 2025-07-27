@@ -1,6 +1,6 @@
 async function getTargetUrls() {
   const result = await chrome.storage.local.get(['target_urls']);
-  return result.target_urls || ["x.com", "reddit.com", "twitter.com", "netflix.com"];
+  return result.target_urls || ["x.com", "reddit.com", "netflix.com", "tiktok.com", "instagram.com"];
 }
 
 async function addUrl(url) {
